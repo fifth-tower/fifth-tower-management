@@ -1,7 +1,11 @@
-# Tauri + Leptos
+管理后台主要功能：
+	
+     - 看板，展示各系统数据情况
+     - 用户管理：重置密码，禁用用户，开通应用，设置角色，设置用户组，设置用户等级	 
+	 - 配置管理：各系统的配置都在这里管理，各系统使用配置各不相同
+	 - 字典管理：各系统的公共字典都在这里管理，各系统使用字典相同
 
-This template should help get you started developing with Tauri and Leptos.
+技术架构：daisyUI+leptos+tauri
 
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+	 - daisyUI+leptos负责UI实现
+     - tauri提供http 交互api	 
